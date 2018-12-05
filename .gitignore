@@ -20,3 +20,6 @@ sw.*
 static/json/*
 static/sitemap.xml
 static/sitemap.xml.gz
+
+# IDE
+.idea
