@@ -1,6 +1,6 @@
 import Axios from 'axios'
 import Cache from 'node-persist'
-import fs from 'fs'
+import fs from 'file-system'
 import ef from 'empty-folder'
 
 const cache = Cache.create( { dir: '/tmp/', ttl: 300000 } )
