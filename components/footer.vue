@@ -3,13 +3,12 @@
 	<!-- TODO: Add page render time -->
 	<div class="footer" role="contentinfo">
 		<ul class="" style="display:none;">
-			<li><a href="https://profiles.wordpress.org/scottsweb">WP</a></li>
-			<li><a href="https://twitter.com/scottsweb">Twitter</a></li>
-			<li><a href="https://github.com/scottsweb">GitHub</a></li>
-			<li><a href="https://api.scott.ee/feed/">RSS</a></li>
+			<li><a href="https://twitter.com/developerdustin">Twitter</a></li>
+			<li><a href="https://github.com/dustin-schwartz">GitHub</a></li>
+			<li><a href="https://api.devdust.com/feed/">RSS</a></li>
 			<li><!--Inital load in {{ generated }} seconds--></li>
 		</ul>
-		<no-ssr>
+		<!--<no-ssr> // TODO: Research this more
 			<a v-if="isWeb" class="dat-link tooltip" :href="dat" data-tooltip="P2P/Dat Version">
 				<span class="screen-reader-text">A P2P/Dat version of this website is also available</span>
 				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 240 240">
@@ -24,7 +23,7 @@
 					<path d="M69.81 145.48a9 9 0 0 0 12.73 0 53.24 53.24 0 0 1 75.2 0 9 9 0 0 0 12.73-12.73 71.26 71.26 0 0 0-100.66 0 9 9 0 0 0 0 12.73zM82 98.61V81.39a9 9 0 0 0-18 0v17.22a9 9 0 0 0 18 0zm85 9a9 9 0 0 0 9-9V81.39a9 9 0 0 0-18 0v17.22a9 9 0 0 0 9 9z"/>
 				</svg>
 			</a>
-		</no-ssr>
+		</no-ssr>-->
 		<no-ssr>
 			<v-offline onlineClass="notification notification-online" offlineClass="notification notification-offline">
 				<div slot="offline">
@@ -57,10 +56,10 @@ export default {
 			return true;
 		},
 		dat() {
-			return 'dat://scott.ee' + this.$route.path
+			return 'dat://devdust.com' + this.$route.path
 		},
 		web() {
-			return 'https://scott.ee' + this.$route.path
+			return 'https://devdust.com' + this.$route.path
 		}
 	}
 }

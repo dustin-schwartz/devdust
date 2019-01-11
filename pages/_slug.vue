@@ -33,8 +33,7 @@ export default {
 		featuredImage() {
 			let featuredImage = this.post._embedded['wp:featuredmedia']
 			if ( featuredImage && featuredImage[0].media_details ) {
-				return featuredImage[0].media_details.sizes.large.source_url ||
-				featuredImage[0].media_details.sizes.full.source_url
+				return typeof featuredImage[0].media_details.sizes.large !== 'undefined' ? featuredImage[0].media_details.sizes.large.source_url : featuredImage[0].media_details.sizes.full.source_url;
 			} else {
 				return '/og-card.png'
 			}
@@ -55,7 +54,7 @@ export default {
 				{
 					hid: 'og:title',
 					property: 'og:title',
-					content: this.post.title.rendered + ' • Scott Evans'
+					content: this.post.title.rendered + ' • Dustin Schwartz'
 				},
 				{
 					hid: 'og:description',

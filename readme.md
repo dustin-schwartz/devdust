@@ -1,18 +1,16 @@
-![scott.ee](https://scott.ee/images/scott.png)
-
-# scott.ee
+# devdust.com
 
 * Status: ✅ Active
-* Contributors: [@scottsweb](http://twitter.com/scottsweb)
+* Contributors: [@developerdustin](http://twitter.com/developerdustin)
 * Description: My personal website
-* Author: [Scott Evans](https://scott.ee)
-* Author URI: [https://scott.ee](https://scott.ee)
+* Author: [Dustin Schwartz](https://devdust.com)
+* Author URI: [https://devdust.com](https://devdust.com)
 
 ## About
 
-This is the repo for my personal website created with [nuxt.js](https://nuxtjs.org/). The site is statically generated from a remotely hosted WordPress API. A full write up of how it is put together can be found [on my journal](https://scott.ee/journal/headless-wordpress-api-nuxt-dat/).
+This is the repo for my personal website created with [nuxt.js](https://nuxtjs.org/). The site is statically generated from a remotely hosted WordPress API. This site was a fork from [Scott Evans](https://github.com/scottsweb/scott.ee), with the initial build notes [here](https://scott.ee/journal/headless-wordpress-api-nuxt-dat/).
 
-The site is hosted on GitHub pages and on the peer to peer web, using [dat](https://datproject.org/) ([dat://scott.ee](dat://scott.ee)).
+The site is hosted on GitHub pages and on the peer to peer web, using [dat](https://datproject.org/) ([dat://devdust.com](dat://devdust.com)).
 
 ## Development / Building
 
@@ -113,7 +111,7 @@ add_filter( 'template_redirect', 'add_redirects' );
 
 ## WordPress Feed URLs
 
-I am also experimenting with changing the URLs within the RSS feed to reduce redirects. The RSS feed is still currently being served from the WordPress side at [api.scott.ee/feed/](https://api.scott.ee/feed/).
+I am also experimenting with changing the URLs within the RSS feed to reduce redirects. The RSS feed is still currently being served from the WordPress side at [api.devdust.com/feed/](https://api.devdust.com/feed/).
 
 ```
 function fix_feed_home_url( $home ) {

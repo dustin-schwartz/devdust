@@ -10,24 +10,24 @@ module.exports = {
 	*/
 	head: {
 		title: '٩(͡๏̯͡๏)۶',
-		titleTemplate: '%s • Scott Evans',
+		titleTemplate: '%s • Dustin Schwartz',
 		meta: [
 			{ charset: 'utf-8' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
-			{ hid: 'description', name: 'description', content: 'Design, Technology, Open Source & Sustainability.' },
-			{ hid: 'og:title', property: 'og:title', content: 'Scott Evans' },
-			{ hid: 'og:description', property: 'og:description', content: 'Design, Technology, Open Source & Sustainability.' },
+			{ hid: 'description', name: 'description', content: 'Building things for the web.' },
+			{ hid: 'og:title', property: 'og:title', content: 'Dustin Schwartz' },
+			{ hid: 'og:description', property: 'og:description', content: 'Building things for the web.' },
 			{ hid: 'og:image', property: 'og:image', content: '/og-card.png' },
 			{ property: 'twitter:card', content: 'summary_large_image' },
-			{ property: 'twitter:site', content: '@scottsweb' },
-			{ property: 'twitter:creator', content: '@scottsweb' },
+			{ property: 'twitter:site', content: '@developerdustin' },
+			{ property: 'twitter:creator', content: '@developerdustin' },
 		],
 		link: [
 			{ rel: 'dns-prefetch', href: '//i0.wp.com' },
 			{ rel: 'dns-prefetch', href: '//i1.wp.com' },
 			{ rel: 'dns-prefetch', href: '//i2.wp.com' },
 			{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-			{ rel: 'alternate',  type: 'application/rss+xml', title: 'RSS Feed | Scott Evans', href: 'https://api.scott.ee/feed/' }
+			{ rel: 'alternate',  type: 'application/rss+xml', title: 'RSS Feed | Dustin Schwartz', href: 'https://api.devdust.com/feed/' }
 		]
   	},
 	/*
@@ -49,7 +49,7 @@ module.exports = {
 	* Axios / API
 	*/
 	axios: {
-		baseURL: 'https://api.scott.ee/wp-json/wp/v2/',
+		baseURL: 'https://developerdustin.com/wp-json/wp/v2/',
 		https: true,
 		progress: true
 	},
@@ -154,8 +154,8 @@ module.exports = {
 	* PWA Manifest
 	*/
 	manifest: {
-		name: 'Scott Evans',
-		description: 'Design, Technology, Open Source & Sustainability.',
+		name: 'Dustin Schwartz',
+		description: 'Building things for the web.',
 		lang: 'en-gb',
 		dir: 'ltr',
 		background_color: '#fff',
@@ -169,7 +169,7 @@ module.exports = {
 	*/
 	sitemap: {
 		path: '/sitemap.xml',
-		hostname: 'https://scott.ee',
+		hostname: 'https://devdust.com',
 		cacheTime: 1000 * 60 * 15,
 		generate: true, // gets created as part of generate
 		gzip: true,

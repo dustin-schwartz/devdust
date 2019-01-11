@@ -1,7 +1,7 @@
 <template>
 	<section class="posts">
 		<header>
-			<h2 class="section-title" v-show="this.$route.path === '/'" v-html="widont( 'Design, Technology, Open Source &amp; Sustainability.' )"></h2>
+			<h2 class="section-title" v-show="this.$route.path === '/'" v-html="widont( 'Building things for the web.' )"></h2>
 		</header>
 		<transition-group
 			name="list"
@@ -76,7 +76,7 @@ export default {
 				{
 					hid: 'og:title',
 					property: 'og:title',
-					content: 'Journal • Page ' + ( this.$route.params.id || 1 ) + ' • Scott Evans'
+					content: 'Journal • Page ' + ( this.$route.params.id || 1 ) + ' • Dustin Schwartz'
 				}
 			]
 		}

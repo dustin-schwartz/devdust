@@ -1,4 +1,4 @@
-Sitemap: https://scott.ee/sitemap.xml
+Sitemap: https://devdust.com/sitemap.xml
 User-agent: *
 Disallow: /.well-known/
 Disallow: /json/

@@ -9,8 +9,8 @@
 			]">
 				<nuxt-link to="/">
 					<Logo/>
-					<h1 class="title screen-reader-text" v-if="this.$route.path === '/'">Scott Evans</h1>
-					<span class="title screen-reader-text" v-else>Scott Evans</span>
+					<h1 class="title screen-reader-text" v-if="this.$route.path === '/'">Dustin Schwartz</h1>
+					<span class="title screen-reader-text" v-else>Dustin Schwartz</span>
 				</nuxt-link>
 
 				<nav class="navigation">

@@ -19,12 +19,12 @@
 	height: 55px;
 	overflow: hidden;
 
-	@include xlarge-breakpoint {
+	/*@include xlarge-breakpoint {
 		width: 150px;
 		height: 205px;
 		top: $margins * 2;
 		right: $margins * 2;
-	}
+	}*/
 }
 
 .logo {
@@ -45,7 +45,7 @@
 		}
 	}
 
-	@include xlarge-breakpoint {
+	/*@include xlarge-breakpoint {
 		height: 150px;
 
 		svg {
@@ -53,7 +53,7 @@
 			height: inherit;
 			margin: 0 auto;
 		}
-	}
+	}*/
 }
 
 .navigation {
@@ -67,11 +67,11 @@
 	font-size: 20px;
 	line-height: 34px;
 
-	@include xlarge-breakpoint {
+	/*@include xlarge-breakpoint {
 		height: 55px;
 		bottom: 0;
 		top: auto;
-	}
+	}*/
 }
 
 .pagination {
@@ -93,9 +93,9 @@
 		text-align: center;
 		transition: all 0.3s;
 
-		@include xlarge-breakpoint {
+		/*@include xlarge-breakpoint {
 			padding: 16px 24px 5px 24px;
-		}
+		}*/
 
 		svg {
 			fill: $alternate-color;
