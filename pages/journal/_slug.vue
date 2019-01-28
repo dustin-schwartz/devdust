@@ -1,7 +1,7 @@
 <template>
 	<article class="post hentry" :id="'post-id-' + this.post.id">
 		<header class="entry-header">
-			<time class="entry-date published" datetime="post.date">{{ longTimestamp( post.date ) }}</time>
+			<time class="entry-date published" :datetime="post.date">{{ longTimestamp( post.date ) }}</time>
 			<h1 v-html="widont( post.title.rendered )" class="entry-title"></h1>
 		</header>
 		<div v-lazy-container="{ selector: 'img' }" class="entry-content">

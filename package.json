@@ -1,7 +1,7 @@
 {
   "name": "dustin-schwartz",
   "version": "1.0.0",
-  "description": "Building things for the web.",
+  "description": "Nerding out about web development.",
   "author": "Dustin Schwartz <webmaster@devdust.com>",
   "private": true,
   "scripts": {

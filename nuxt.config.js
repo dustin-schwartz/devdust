@@ -9,14 +9,14 @@ module.exports = {
 	* Headers of the page
 	*/
 	head: {
-		title: '٩(͡๏̯͡๏)۶',
+		title: 'Nerding out about web development.',
 		titleTemplate: '%s • Dustin Schwartz',
 		meta: [
 			{ charset: 'utf-8' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
-			{ hid: 'description', name: 'description', content: 'Building things for the web.' },
+			{ hid: 'description', name: 'description', content: 'Nerding out about web development.' },
 			{ hid: 'og:title', property: 'og:title', content: 'Dustin Schwartz' },
-			{ hid: 'og:description', property: 'og:description', content: 'Building things for the web.' },
+			{ hid: 'og:description', property: 'og:description', content: 'Nerding out about web development.' },
 			{ hid: 'og:image', property: 'og:image', content: '/og-card.png' },
 			{ property: 'twitter:card', content: 'summary_large_image' },
 			{ property: 'twitter:site', content: '@developerdustin' },
@@ -155,7 +155,7 @@ module.exports = {
 	*/
 	manifest: {
 		name: 'Dustin Schwartz',
-		description: 'Building things for the web.',
+		description: 'Nerding out about web development.',
 		lang: 'en-gb',
 		dir: 'ltr',
 		background_color: '#fff',

@@ -3,6 +3,9 @@
  *
  * All variables and most of the configuration is defined on this page. */
 
+/* Import Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700');
 
 /* Containers */
 
@@ -21,7 +24,7 @@ $xdesktop: $x-large;
 /* Colors */
 
 $background: white;
-$primary-color: #00bcd4;
+$primary-color: #0977ab;
 $secondary-color: #FCB42A;
 $accent-color: #eee;
 $alternate-background: #fafafa;
@@ -31,6 +34,7 @@ $link-hover-color: darken($link-color, 15%);
 $highlight: #ffeea8;
 $error: #D33C40;
 $bq-border: 16px solid $accent-color;
+$headline-color: #404040;
 
 /* Typography */
 
@@ -40,14 +44,14 @@ $body-font-size: 0.9rem;
 $font-style: normal;
 $font-variant: normal;
 $font-weight: normal;
-$font-color: #404040;
+$font-color: $headline-color;
 $font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
 $line-height: 1.6;
 
 // Headings
-$heading-font-color: #404040;
-$heading-font-weight: 600;
-$heading-font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+$heading-font-color: $headline-color;
+$heading-font-weight: 900;
+$heading-font-family: 'Playfair Display', serif;
 $heading-line-height: 1.2;
 
 // Mobile heading font size
@@ -58,8 +62,8 @@ $h4-mobile: 1.1rem;
 $h5-mobile: 1rem;
 
 // Heading font size
-$h1: 2.25rem;
-$h2: 2rem;
+$h1: 3rem;
+$h2: 2.25rem;
 $h3: 1.75rem;
 $h4: 1.5rem;
 $h5: 1.25rem;

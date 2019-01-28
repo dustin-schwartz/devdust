@@ -142,8 +142,8 @@
 
 	img {
 		backface-visibility: hidden;
-		//will-change: transform;
-		transition: opacity 0.5s;
+		will-change: transform, filter;
+		transition: opacity 0.5s ease-in-out, filter 0.5s ease-in-out;
 		width: 100%;
 		max-width: 100%;
 		display: block;
@@ -160,11 +160,7 @@
 
 	img[lazy=loaded] {
 		opacity: 1;
-		filter: url('#duotone');
-
-		&:hover {
-			filter: none;
-		}
+		filter: none;
 	}
 }
 
@@ -213,16 +209,16 @@
 	}
 
 	&:before {
-		width: 150px;
 		background-color: $alternate-color;
 		color: #fff;
-		padding: 5px 0;
+		padding: 5px 10px;
 		font-size: 14px;
 		bottom: 40%;
-		margin-left: -75px;
+		transform: translate(-50%,0);
 		z-index: 1;
 		content: attr(data-tooltip);
 		text-align: center;
+		white-space: nowrap;
 	}
 
 	&:after {
@@ -241,6 +237,6 @@
 	&:hover:before {
 		visibility: visible;
 		opacity: 1;
-		transform: translateY(-30px);
+		transform: translate(-50%,-20px);
 	}
 }

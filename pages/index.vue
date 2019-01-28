@@ -1,7 +1,7 @@
 <template>
 	<section class="posts">
 		<header>
-			<h2 class="section-title" v-show="this.$route.path === '/'" v-html="widont( 'Building things for the web.' )"></h2>
+			<h2 class="section-title" v-show="this.$route.path === '/'" v-html="widont( 'Nerding out about web development.' )"></h2>
 		</header>
 		<transition-group
 			name="list"
@@ -15,10 +15,10 @@
 		>
 			<article v-for="(post, index) in posts" v-bind:key="post.id" v-bind:data-index="index" class="post hentry">
 				<header class="entry-header">
-					<nuxt-link :to="'/journal/' + post.slug + '/'">
-						<time class="entry-date published" datetime="post.date">{{ longTimestamp( post.date ) }}</time>
-						<h3 v-html="widont( post.title.rendered )" class="entry-title"></h3>
-					</nuxt-link>
+						<time class="entry-date published" :datetime="post.date">{{ longTimestamp( post.date ) }}</time>
+						<h3 class="entry-title">
+							<nuxt-link :to="'/journal/' + post.slug + '/'" v-html="widont( post.title.rendered )"></nuxt-link>
+						</h3>
 				</header>
 			</article>
 		</transition-group>
