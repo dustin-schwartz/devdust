@@ -49,7 +49,7 @@ module.exports = {
 	* Axios / API
 	*/
 	axios: {
-		baseURL: 'https://developerdustin.com/wp-json/wp/v2/',
+		baseURL: 'https://admin.devdust.com/wp-json/wp/v2/',
 		https: true,
 		progress: true
 	},
