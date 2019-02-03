@@ -111,7 +111,7 @@ add_filter( 'template_redirect', 'add_redirects' );
 
 ## WordPress Feed URLs
 
-I am also experimenting with changing the URLs within the RSS feed to reduce redirects. The RSS feed is still currently being served from the WordPress side at [api.devdust.com/feed/](https://api.devdust.com/feed/).
+I am also experimenting with changing the URLs within the RSS feed to reduce redirects. The RSS feed is still currently being served from the WordPress side at [admin.devdust.com/feed/](https://api.devdust.com/feed/).
 
 ```
 function fix_feed_home_url( $home ) {

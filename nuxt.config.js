@@ -27,7 +27,7 @@ module.exports = {
 			{ rel: 'dns-prefetch', href: '//i1.wp.com' },
 			{ rel: 'dns-prefetch', href: '//i2.wp.com' },
 			{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-			{ rel: 'alternate',  type: 'application/rss+xml', title: 'RSS Feed | Dustin Schwartz', href: 'https://api.devdust.com/feed/' }
+			{ rel: 'alternate',  type: 'application/rss+xml', title: 'RSS Feed | Dustin Schwartz', href: 'https://admin.devdust.com/feed/' }
 		]
   	},
 	/*

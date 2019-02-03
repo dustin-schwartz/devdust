@@ -7,7 +7,7 @@
 			&bull; <a href="https://twitter.com/developerdustin" target="_blank">Twitter</a>
 			&bull; <a href="https://github.com/dustin-schwartz" target="_blank">GitHub</a>
 			<!--&bull; <a href="https://api.devdust.com/feed/" target="_blank">RSS</a>-->
-			&bull; <a class="tooltip" data-tooltip="Code Name: Phoenix" href="https://api.devdust.com/feed/">Mark I</a>
+			&bull; <span class="tooltip" data-tooltip="Code Name: Phoenix">Mark I</span>
 			<!--Inital load in {{ generated }} seconds-->
 		</p>
 		<no-ssr>
